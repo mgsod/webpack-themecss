@@ -40,7 +40,7 @@ FileListPlugin.prototype.apply = function(compiler) {
                 "<!--themeColor.css-->", result
             );*/
             // 返回修改后的结果
-            htmlPluginData.html+=result
+            //htmlPluginData.html=resultHTML
            // console.log(resultHTML)
             callback(null,htmlPluginData)
         });
